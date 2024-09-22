@@ -1,6 +1,8 @@
+import { innerHeightFn } from "./window"
+
 export function doubleUserAge() {
   return lifa.age * 2
 }
 export function doubleHeight() {
-  return innerHeight * 2
+  return innerHeightFn() * 2
 }
